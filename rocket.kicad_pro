@@ -415,11 +415,15 @@
     ],
     [
       "210b61a9-b033-47ab-8203-6fbd3e0531dc",
-      "Power"
+      "Power & Converters"
     ],
     [
       "0b329508-bfb6-4616-8893-0a912468cc6a",
-      "Shutdown"
+      "Shutdown & Solenoid Ctrl"
+    ],
+    [
+      "f57fc815-964e-4d89-80ef-89f664da1752",
+      "Teensy & Sensor Input"
     ]
   ],
   "text_variables": {}
