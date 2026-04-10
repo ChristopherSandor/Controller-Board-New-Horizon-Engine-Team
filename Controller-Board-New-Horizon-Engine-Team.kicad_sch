@@ -3772,7 +3772,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9a84d5d0-6a97-42d1-96d2-52e0fd548ebf")
-		(property "Sheetname" "Fault State Construction"
+		(property "Sheetname" "Fault Signals & Oscillators"
 			(at 109.22 182.1684 0)
 			(effects
 				(font
