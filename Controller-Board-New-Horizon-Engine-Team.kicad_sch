@@ -11,7 +11,7 @@
 		(company "New Horizon Engine Team")
 	)
 	(lib_symbols)
-	(text "Numbering Convention (small components)\n(Page Number) (Group Relation) (Number of Component)\ni.e. R111 (resistor on page 1, in group 1, and first in group)"
+	(text "Numbering Convention\n(Page Number) (Group Relation) (Number of Component)\ni.e. R111 (resistor on page 1, in group 1, and first in group)"
 		(exclude_from_sim no)
 		(at 60.452 34.036 0)
 		(effects
@@ -3707,7 +3707,7 @@
 			)
 		)
 		(instances
-			(project "rocket"
+			(project "Controller-Board-New-Horizon-Engine-Team"
 				(path "/5af55672-b395-4e4d-9412-3e1b639bac31"
 					(page "3")
 				)
@@ -3749,9 +3749,51 @@
 			)
 		)
 		(instances
-			(project "rocket"
+			(project "Controller-Board-New-Horizon-Engine-Team"
 				(path "/5af55672-b395-4e4d-9412-3e1b639bac31"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 182.88)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a84d5d0-6a97-42d1-96d2-52e0fd548ebf")
+		(property "Sheetname" "Fault State Construction"
+			(at 109.22 182.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Faults.kicad_sch"
+			(at 109.22 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller-Board-New-Horizon-Engine-Team"
+				(path "/5af55672-b395-4e4d-9412-3e1b639bac31"
+					(page "5")
 				)
 			)
 		)
@@ -3791,7 +3833,7 @@
 			)
 		)
 		(instances
-			(project "rocket"
+			(project "Controller-Board-New-Horizon-Engine-Team"
 				(path "/5af55672-b395-4e4d-9412-3e1b639bac31"
 					(page "4")
 				)
