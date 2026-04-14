@@ -3757,6 +3757,48 @@
 		)
 	)
 	(sheet
+		(at 139.7 182.88)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9319104c-9980-438a-a80d-21db29b57b57")
+		(property "Sheetname" "Input Filters"
+			(at 139.7 182.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Filters.kicad_sch"
+			(at 139.7 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller-Board-New-Horizon-Engine-Team"
+				(path "/5af55672-b395-4e4d-9412-3e1b639bac31"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 109.22 182.88)
 		(size 25.4 8.89)
 		(exclude_from_sim no)

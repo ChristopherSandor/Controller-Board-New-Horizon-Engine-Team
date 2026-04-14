@@ -1036,322 +1036,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Timer:NE555D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1565,6 +1249,304 @@
 					(at 10.16 0 180)
 					(length 2.54)
 					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:IRF540N"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRF540N"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HEXFET N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRF540N_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRF540N_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1821,9 +1803,9 @@
 		)
 		(uuid "08379e70-27a1-4c3c-9e4b-9d474327b59e")
 	)
-	(text "Purge Oscillators/Timers"
+	(text "Purge/Pressurization Oscillators/Timers"
 		(exclude_from_sim no)
-		(at 106.426 96.266 0)
+		(at 117.348 96.012 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1834,16 +1816,16 @@
 		(uuid "fbd3580d-b531-4c8e-8111-544fc7578a97")
 	)
 	(junction
-		(at 129.54 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00bb512a-8fee-4db5-a703-436130e23d83")
-	)
-	(junction
 		(at 35.56 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a29157b-dbf0-4bc0-b194-93134bad0ff1")
+	)
+	(junction
+		(at 154.94 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "230cff77-e0c6-4793-91bf-659390f46e25")
 	)
 	(junction
 		(at 110.49 148.59)
@@ -1858,10 +1840,22 @@
 		(uuid "2ca0da54-6bed-4809-b3b0-f3b2e7a30d1a")
 	)
 	(junction
+		(at 102.87 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ee3ddf9-5cc7-4502-a9dc-f701b55cc823")
+	)
+	(junction
 		(at 118.11 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50086cdc-b6cf-4339-859a-94d60237fcce")
+	)
+	(junction
+		(at 129.54 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54fbd919-648a-4ff9-aef7-125419500f33")
 	)
 	(junction
 		(at 110.49 151.13)
@@ -1906,10 +1900,22 @@
 		(uuid "91c83e6e-8bbf-45d5-beb9-2b0d4f966ac7")
 	)
 	(junction
+		(at 129.54 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93a1988c-a694-4685-bec6-afad5d78a77e")
+	)
+	(junction
 		(at 106.68 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97ac649f-344d-496f-9cfc-9ac00b10d769")
+	)
+	(junction
+		(at 102.87 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a452caa9-0c0e-42dc-866f-1dccaf13a5c2")
 	)
 	(junction
 		(at 113.03 120.65)
@@ -1967,6 +1973,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 184.15) (xy 129.54 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bdc28e-3a1f-4312-a2ac-31c76aebf694")
+	)
+	(wire
+		(pts
 			(xy 125.73 165.1) (xy 129.54 165.1)
 		)
 		(stroke
@@ -1997,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 186.69) (xy 129.54 190.5)
+			(xy 102.87 186.69) (xy 102.87 190.5)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +2053,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 173.99) (xy 129.54 173.99)
+			(xy 95.25 173.99) (xy 102.87 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2097,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 173.99) (xy 129.54 176.53)
+			(xy 102.87 173.99) (xy 102.87 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2197,6 +2213,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 168.91) (xy 154.94 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610b14fd-b233-446a-ab5d-d2d1c48129cf")
+	)
+	(wire
+		(pts
 			(xy 132.08 140.97) (xy 132.08 143.51)
 		)
 		(stroke
@@ -2217,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 153.67) (xy 160.02 156.21)
+			(xy 154.94 153.67) (xy 154.94 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2264,16 +2290,6 @@
 			(type default)
 		)
 		(uuid "7597e8c9-3461-4f50-9073-c93a9e745d6e")
-	)
-	(wire
-		(pts
-			(xy 160.02 168.91) (xy 160.02 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b2c2dd9-45d3-4f73-9a2d-eecd99d6ec53")
 	)
 	(wire
 		(pts
@@ -2507,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 153.67) (xy 160.02 153.67)
+			(xy 139.7 153.67) (xy 154.94 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2524,6 +2540,16 @@
 			(type default)
 		)
 		(uuid "b1eded11-afa2-4c26-986c-7fc65187986b")
+	)
+	(wire
+		(pts
+			(xy 167.64 168.91) (xy 167.64 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1fb327c-c684-49ef-b0ec-95c9159f45ff")
 	)
 	(wire
 		(pts
@@ -2617,6 +2643,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 153.67) (xy 167.64 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c9fbfb-fca3-499e-b790-df5d1c674149")
+	)
+	(wire
+		(pts
 			(xy 125.73 102.87) (xy 125.73 105.41)
 		)
 		(stroke
@@ -2677,6 +2713,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 153.67) (xy 167.64 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93da99d-7fef-44aa-b36c-06a96f971a42")
+	)
+	(wire
+		(pts
 			(xy 113.03 118.11) (xy 113.03 120.65)
 		)
 		(stroke
@@ -2684,6 +2730,16 @@
 			(type default)
 		)
 		(uuid "de408578-04a0-4b26-977b-8a156ef195f8")
+	)
+	(wire
+		(pts
+			(xy 102.87 173.99) (xy 129.54 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3cd686a-eca0-4a79-a628-0f397d212057")
 	)
 	(wire
 		(pts
@@ -2737,6 +2793,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 185.42) (xy 129.54 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7650171-b04c-4df9-a890-f31a8e9fda3d")
+	)
+	(wire
+		(pts
 			(xy 35.56 109.22) (xy 46.99 109.22)
 		)
 		(stroke
@@ -2754,6 +2820,16 @@
 			(type default)
 		)
 		(uuid "fcb57f60-02ed-4d45-a0a0-574366a9b394")
+	)
+	(wire
+		(pts
+			(xy 102.87 190.5) (xy 167.64 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdde083f-9d7e-42c0-9c99-3b2559ac3abb")
 	)
 	(wire
 		(pts
@@ -2877,7 +2953,7 @@
 	)
 	(global_label "Tee7"
 		(shape input)
-		(at 121.92 181.61 180)
+		(at 95.25 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2887,7 +2963,7 @@
 		)
 		(uuid "4cc16c8f-9457-4f32-b022-a0e5806fecce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.5805 181.61 0)
+			(at 87.9105 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3095,6 +3171,28 @@
 			)
 		)
 	)
+	(global_label "Tee5"
+		(shape input)
+		(at 121.92 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c063692d-ad8f-4e14-af63-54c6c0ead777")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.5805 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TC03_Fault"
 		(shape input)
 		(at 62.23 168.91 0)
@@ -3255,105 +3353,6 @@
 				(path "/5af55672-b395-4e4d-9412-3e1b639bac31/9a84d5d0-6a97-42d1-96d2-52e0fd548ebf"
 					(reference "U4")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 127 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "056bcd10-7f74-424b-b6e0-c6737ce1d94a")
-		(property "Reference" "Q2"
-			(at 133.35 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 133.35 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 127 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 127 198.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 127 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 127 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da92b8f5-e273-48db-bb55-abcf7c5a5245")
-		)
-		(pin "2"
-			(uuid "59473e6f-dbdd-4e11-baa1-84c4c5a1bcc1")
-		)
-		(pin "3"
-			(uuid "48b1c5c2-b909-43d2-903e-4af3728f8395")
-		)
-		(instances
-			(project "Controller-Board-New-Horizon-Engine-Team"
-				(path "/5af55672-b395-4e4d-9412-3e1b639bac31/9a84d5d0-6a97-42d1-96d2-52e0fd548ebf"
-					(reference "Q2")
-					(unit 1)
 				)
 			)
 		)
@@ -3840,8 +3839,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V"
-			(at 46.99 20.574 0)
+		(property "Value" "+5V"
+			(at 46.228 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,6 +3951,152 @@
 			(project "Controller-Board-New-Horizon-Engine-Team"
 				(path "/5af55672-b395-4e4d-9412-3e1b639bac31/9a84d5d0-6a97-42d1-96d2-52e0fd548ebf"
 					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 167.64 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13f7c10c-fd3d-4116-952d-0de8bb7e9eae")
+		(property "Reference" "R37"
+			(at 165.862 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 165.862 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 167.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffba167a-4846-4979-9ba2-483f10816471")
+		)
+		(pin "2"
+			(uuid "0325b24a-b8ba-4138-bdd2-6611ff6da957")
+		)
+		(instances
+			(project "Controller-Board-New-Horizon-Engine-Team"
+				(path "/5af55672-b395-4e4d-9412-3e1b639bac31/9a84d5d0-6a97-42d1-96d2-52e0fd548ebf"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF540N")
+		(at 100.33 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16018bc4-9b46-4a99-9768-a2d01521e533")
+		(property "Reference" "Q16"
+			(at 107.95 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540N"
+			(at 107.95 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 105.41 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+			(at 105.41 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cb65378-28a4-4a5f-a49c-daf126d27cd8")
+		)
+		(pin "2"
+			(uuid "342f3fa2-5985-494a-b9ab-7a11550d68cb")
+		)
+		(pin "3"
+			(uuid "317f2e8c-ce29-4741-a0ab-751452061c79")
+		)
+		(instances
+			(project "Controller-Board-New-Horizon-Engine-Team"
+				(path "/5af55672-b395-4e4d-9412-3e1b639bac31/9a84d5d0-6a97-42d1-96d2-52e0fd548ebf"
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -4230,7 +4375,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 190.5 0)
+		(at 102.87 190.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4239,7 +4384,7 @@
 		(dnp no)
 		(uuid "2747bb3e-e52d-4aca-b660-f8fdf53d1d7c")
 		(property "Reference" "#PWR093"
-			(at 129.54 196.85 0)
+			(at 102.87 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4393,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 194.31 0)
+			(at 102.87 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 190.5 0)
+			(at 102.87 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 190.5 0)
+			(at 102.87 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 190.5 0)
+			(at 102.87 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,72 +5012,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 160.02 170.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40de8251-7485-4c39-a4f0-5e8ac5287554")
-		(property "Reference" "#PWR0112"
-			(at 160.02 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0670a88-f760-42b6-9375-c9b9ed3a6e62")
-		)
-		(instances
-			(project "Controller-Board-New-Horizon-Engine-Team"
-				(path "/5af55672-b395-4e4d-9412-3e1b639bac31/9a84d5d0-6a97-42d1-96d2-52e0fd548ebf"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+6V")
 		(at 71.12 24.13 0)
 		(unit 1)
@@ -4950,8 +5029,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V"
-			(at 69.85 20.574 0)
+		(property "Value" "+5V"
+			(at 68.834 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,8 +5788,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V"
-			(at 35.56 20.574 0)
+		(property "Value" "+5V"
+			(at 34.798 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,7 +5904,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 160.02 165.1 90)
+		(at 154.94 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5834,7 +5913,7 @@
 		(fields_autoplaced yes)
 		(uuid "871e13d1-a035-45b1-aa6a-aff10cf40d21")
 		(property "Reference" "D13"
-			(at 163.83 165.4174 90)
+			(at 158.75 165.4174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,7 +5922,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 163.83 167.9574 90)
+			(at 158.75 167.9574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +5931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 165.1 0)
+			(at 154.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +5940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 165.1 0)
+			(at 154.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +5949,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 160.02 165.1 0)
+			(at 154.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +5958,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 165.1 0)
+			(at 154.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,6 +7847,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRF540N")
+		(at 127 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d92dfb5e-5f04-471b-a85b-f283af8804f0")
+		(property "Reference" "Q2"
+			(at 134.62 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540N"
+			(at 134.62 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 132.08 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+			(at 132.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19589b71-a174-4147-98d4-03ea14220648")
+		)
+		(pin "2"
+			(uuid "163cb0b4-2331-45fc-bc81-77cb9ee0044f")
+		)
+		(pin "3"
+			(uuid "6d94fcb2-c25c-4de5-8039-419b7fc2a406")
+		)
+		(instances
+			(project "Controller-Board-New-Horizon-Engine-Team"
+				(path "/5af55672-b395-4e4d-9412-3e1b639bac31/9a84d5d0-6a97-42d1-96d2-52e0fd548ebf"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 119.38 0)
 		(mirror y)
@@ -7851,8 +8006,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V"
-			(at 58.42 20.574 0)
+		(property "Value" "+5V"
+			(at 57.658 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +8123,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 160.02 158.75 0)
+		(at 154.94 158.75 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7977,7 +8132,7 @@
 		(dnp no)
 		(uuid "e029139b-db6d-4faf-8489-9350444ee12e")
 		(property "Reference" "R77"
-			(at 158.242 158.496 0)
+			(at 153.162 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,7 +8141,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 158.242 160.274 0)
+			(at 153.162 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,7 +8150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 158.75 0)
+			(at 154.94 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,7 +8159,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 158.75 0)
+			(at 154.94 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,7 +8168,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 160.02 158.75 0)
+			(at 154.94 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,6 +8476,151 @@
 			(project "Controller-Board-New-Horizon-Engine-Team"
 				(path "/5af55672-b395-4e4d-9412-3e1b639bac31/9a84d5d0-6a97-42d1-96d2-52e0fd548ebf"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 185.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee921ee7-5c4e-4e08-9ae0-0a0d541cf7a6")
+		(property "Reference" "#PWR079"
+			(at 129.54 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41ffaebc-d130-4b81-9546-34fd442041d5")
+		)
+		(instances
+			(project "Controller-Board-New-Horizon-Engine-Team"
+				(path "/5af55672-b395-4e4d-9412-3e1b639bac31/9a84d5d0-6a97-42d1-96d2-52e0fd548ebf"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 167.64 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f267a708-7b19-4b6b-8769-c9a46d1ce06a")
+		(property "Reference" "D4"
+			(at 171.45 165.4174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 171.45 167.9574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3aa5e61-492f-477c-9e36-df99434d7c4e")
+		)
+		(pin "2"
+			(uuid "821ad68c-efa7-4d34-a9fb-b8ed9fb3527a")
+		)
+		(instances
+			(project "Controller-Board-New-Horizon-Engine-Team"
+				(path "/5af55672-b395-4e4d-9412-3e1b639bac31/9a84d5d0-6a97-42d1-96d2-52e0fd548ebf"
+					(reference "D4")
 					(unit 1)
 				)
 			)

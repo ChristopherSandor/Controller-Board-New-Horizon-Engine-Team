@@ -1,0 +1,65 @@
+* SN74LVC1G125
+*****************************************************************************
+* (C) Copyright 2014 Texas Instruments Incorporated. All rights reserved.                                            
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer.
+*****************************************************************************
+*
+** Released by: WEBENCH(R) Design Center, Texas Instruments Inc.
+* Part: SN74LVC1G125
+* Date: 11/21/2014
+* Model Type: Transient
+* Simulator: Pspice
+* Simulator Version: Pspice 16.2.0.s003
+* EVM Order Number: N/A 
+* EVM Users Guide: N/A
+* Datasheet: SCES223T –APRIL 1999–REVISED OCTOBER 2014
+*
+* Model Version: 1.0
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Version 1.0 : New model
+*
+************************************************************************* 
+************************************************************************
+*$
+.SUBCKT SN74LVC1G125 OE A GND Y VCC
+R_RA         A 0  50e06 TC=0,0 
+C_CA         A 0  4e-12  TC=0,0 
+R_ROE        OE 0  50e06 TC=0,0
+C_COE        OE 0  4e-12  TC=0,0 
+X_U1         OE A GND Y_INT1 VCC SN74LVC1G125_BUF 
+R_Rpu        VCC OE  50e06 TC=0,0 
+X_S1    OE N07928 Y Y_INT1 SN74LVC1G125_S1 
+V_V1         N07928 GND 0.8Vdc
+C_CO         Y 0  30p  TC=0,0 
+.ENDS
+*$
+***
+.subckt SN74LVC1G125_S1 1 2 3 4  
+S_S1         3 4 1 2 _S1
+RS_S1         1 2 1G
+.MODEL         _S1 VSWITCH Roff=20e6 Ron=1.0 Voff=1.2V Von=0.0V
+.ends SN74LVC1G125_S1
+*$
+***
+.SUBCKT SN74LVC1G125_BUF OE A GND Y VCC
+.PARAM VCCmin = 1.65
+.PARAM RoVCCmin = 110
+ETHRESH THRESH GND VALUE={0.5*V(VCC)}
+RCC VCC GND 5e06
+EO NO GND VALUE = {IF(V(A) > V(THRESH) & V(OE) < V(THRESH),V(VCC,GND), V(GND))}
+*RO NO Y 39
+GO NO Y VALUE = {V(NO,Y)*(V(VCC,GND)/VCCmin)/RoVCCmin}
+RO NO Y 1e5
+.ENDS
+*$
+
